@@ -74,6 +74,28 @@ namespace ProjetoTeste
             • Maior hospedeiro de código fonte do mundo
             • Planos pagos para repositórios privados
             • É uma "rede social" de repositórios Git. Dica: currículo!
+
+            Criando um repositório remoto no Github
+            • Faça login no Github
+            • Crie um repositório vazio (sem readme, sem gitignore e sem licença)
+
+            Associando um repositório remoto ao seu repositório local
+
+            1) Associar nosso repositório local ao repositório remoto, dando o
+            apelido de "origin" a ele:
+            git remote add origin <URI do repositório remoto>
+
+            2) Associar o repositório local a um outro repositório remoto, porém
+            mantendo o mesmo apelido:
+            git remote set-url origin <URI do repositório remoto>
+
+            Como enviar o repositório local para o Github
+            git push -u origin master
+            Nota: se você usou a opção -u, nas próximas vezes que for subir o branch master,
+            basta fazer:
+            git push
+            Nota: veja o quanto é fácil visualizar as diferenças entre os commits no Github!
+
              */
         }
     }
