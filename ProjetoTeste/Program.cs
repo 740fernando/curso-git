@@ -61,9 +61,19 @@ namespace ProjetoTeste
                 2) Remover o último commit Inclusive as alterações nos arquivos(PERIGO!):
                 git reset --hard HEAD~1
                 
-               
-
-
+                E se eu quiser somente dar uma olhada em uma versão anterior?
+                1) Navegar entre commits, alterando os arquivos temporariamente:
+                    git checkout <código do commit>
+                2) Voltar para o último commit:
+                    git checkout <nome do branch>
+            
+            Visão geral do Github
+            
+            • É um serviço de armazenamento remoto de repositórios Git • Interface com usuário via web
+            • Padrão da indústria para armazenamento de projetos de código aberto
+            • Maior hospedeiro de código fonte do mundo
+            • Planos pagos para repositórios privados
+            • É uma "rede social" de repositórios Git. Dica: currículo!
              */
         }
     }
