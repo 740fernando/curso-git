@@ -8,6 +8,7 @@ namespace ProjetoTeste
         {
             Console.WriteLine("Olá mundo");
             Console.WriteLine("Bom dia");
+            Console.WriteLine("Como você está hoje?");
             Console.ReadLine();
             /*Como criar um novo repositório Git
              * 1) Recomentável: Ative a visualização de arquivos oculos e extensões
@@ -41,6 +42,28 @@ namespace ProjetoTeste
              *  Como saber se o commit deu certo?
              *  Digite o comando :
              *  git log
+             *  
+             *  E se eu esquecer de especificar a mensagem no commit?
+             *  Se você esquecer de especificar a mensagem do commit, o Git
+                Bash vai abrir o VIM para edição.
+                Para sair do VIM tecle <ESC> e depois digite:
+                :q!
+                Tecle <ENTER>
+                
+                E se eu me perder e quiser voltar ao estado do commit atual?
+                1) Descartar todas modificações, voltando ao estado do commit atual:
+                git clean -df
+                git checkout
+
+                E se quiser desfazer o último commit?
+                1) Remover o último commit mantendo as alterações nos arquivos:
+                 git reset --soft HEAD~1
+                2) Remover o último commit Inclusive as alterações nos arquivos(PERIGO!):
+                git reset --hard HEAD~1
+                
+               
+
+
              */
         }
     }
