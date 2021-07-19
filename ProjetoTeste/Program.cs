@@ -6,9 +6,10 @@ namespace ProjetoTeste
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Olá mundo");
-            Console.WriteLine("Bom dia");
+            Console.WriteLine("Olá mundo");        
             Console.WriteLine("Como você está hoje?");
+            Console.WriteLine("Tenha um bom dia!");
+            Console.WriteLine("Tchau");
             Console.ReadLine();
             /*Como criar um novo repositório Git
              * 1) Recomentável: Ative a visualização de arquivos oculos e extensões
